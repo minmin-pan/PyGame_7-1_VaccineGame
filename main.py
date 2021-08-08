@@ -1,7 +1,7 @@
 #-*- coding: utf-8 -*-
 import pygame
 from pygame.locals import *
-import json
+from setting inport *
 import sys
 
 from player import Player
@@ -10,9 +10,9 @@ import monster
 import stuff
 import card
 
-setting = json.load(open('setting.json', 'r'))
-bg = setting['bg']
-wh = setting['wh']
+setting = [wh, bg, speed, distance, field_wh]
+bg = setting[1]
+wh = setting[0]
 
 class Main:
     '''負責掌控主程序'''
